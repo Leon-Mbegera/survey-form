@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FCC-SurveyForm</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="mainHeader">freeCodeCamp Survey Form</h1>
+      <h4 class="subheader">
+        Thankyou for taking the time to help us improve the platform
+      </h4>
+    </header>
+
+    <section>
+      <form class="alignment">
+        <fieldset>
+          <div>
+            <p>
+              <label class="textlabel" for="nameInput">Name</label> <br />
+              <input
+                type="text"
+                id="nameInput"
+                class="textInput"
+                placeholder="Enter your name"
+              />
+            </p>
+
+            <p>
+              <label class="textlabel" for="emailInput">Email</label> <br />
+              <input
+                type="email"
+                id="emailInput"
+                class="textInput"
+                placeholder="Enter your email"
+              />
+            </p>
+
+            <p>
+              <label class="textlabel" for="ageInput"
+                >Age<small>(optional)</small></label
+              >
+              <br />
+              <input
+                type="number"
+                id="ageInput"
+                class="textInput"
+                placeholder="Enter your age"
+              />
+            </p>
+
+            <p>
+              <label class="textlabel" for="optionInput"
+                >What option best describes your current role?</label
+              >
+              <br />
+              <select id="textSelect" aria-placeholder="select current role">
+                <option>No option selected</option>
+                <option>Student</option>
+                <option>Full Time job</option>
+                <option>Fulltime Learner</option>
+                <option>Prefer not to say</option>
+                <option>Other</option>
+              </select>
+            </p>
+
+            <p>
+              <span>Would you recommend freeCodeCamp to a friend?</span> <br />
+              <input type="radio" name="" value="" /> Definitely <br />
+              <input type="radio" name="" value="" /> Maybe <br />
+              <input type="radio" name="" value="" /> Not sure
+            </p>
+
+            <p>
+              <span>What is your favourite feature at freeCodeCamp?</span>
+              <br />
+              <select id="textSelect" aria-placeholder="select current role">
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open source</option>
+              </select>
+            </p>
+
+            <p>
+              <span>
+                What would you like to see improved
+                <small>(Check all that apply)</small></span
+              >
+              <br />
+
+              <input type="checkbox" name="" value="" /> Front-end Projects
+              <br />
+              <input type="checkbox" name="" value="" /> Back-end Projects
+              <br />
+              <input type="checkbox" name="" value="" /> Data Visualization
+              <br />
+              <input type="checkbox" name="" value="" /> Challenges <br />
+              <input type="checkbox" name="" value="" /> Open Source Community
+              <br />
+              <input type="checkbox" name="" value="" /> Gitter help rooms
+              <br />
+              <input type="checkbox" name="" value="" /> Videos <br />
+              <input type="checkbox" name="" value="" /> City Meetups <br />
+              <input type="checkbox" name="" value="" /> Wiki <br />
+              <input type="checkbox" name="" value="" /> Forum <br />
+              <input type="checkbox" name="" value="" /> Additional Courses
+              <br />
+            </p>
+
+            <p>
+              <span>Any comments or suggestions?</span>
+              <textarea name="" id="" placeholder="Enter your comments here...">
+              </textarea>
+            </p>
+            <p>
+              <button type="submit">SUBMIT</button>
+            </p>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
