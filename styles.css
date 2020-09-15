@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: "bold";
@@ -56,3 +57,57 @@ textarea {
   margin-left: -10px;
   width: 1280px;
 }
+=======
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: "bold";
+  background-color: mediumpurple;
+  font-display: white;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainHeader {
+  text-align: center;
+  margin-top: 40px;
+}
+.subheader {
+  font-style: oblique;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+fieldset {
+  width: 50%;
+  margin-left: 15%;
+  background-color: darkslateblue;
+}
+.textlabel {
+  font-size: 20px;
+  font-weight: bold;
+}
+.textInput {
+  width: 600px;
+  height: 30px;
+}
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+#textSelect {
+  width: 600px;
+  height: 30px;
+}
+button {
+  width: 600px;
+  height: 30px;
+}
+textarea {
+  width: 600px;
+  height: 100px;
+}
+.alignment {
+  margin-left: -80px%;
+}
+>>>>>>> 41b57ade8c28ba63a21d0a7af7408ce88dc21d98
